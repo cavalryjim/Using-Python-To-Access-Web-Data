@@ -4,7 +4,7 @@ All folders of this repository contain a mini project taken from the online cour
 
 * **Exploring the HyperText Transport Protocol using socket**
 
-The code retrieves a document using the HTTP protocol using `socket` so as to examine the HTTP Response headers.
+The code retrieves a document using the HTTP protocol using `socket` so as to examine the HTTP Response headers as well as text.
 
 * **Extracting Data From JSON**
 
@@ -12,7 +12,7 @@ The code reads the JSON data from a URL using `urllib.request` and then parses a
 
 * **Extracting Data From XML**
 
-The code prompts for a URL, reads the XML data from that URL using `urllib.request` and then parses and extracts the comment counts from the XML data using `xml.etree.ElementTree as ET`, and finally computes the sum of the numbers in the file.
+The code reads the XML data from a URL using `urllib.request` and then parses and extracts the comment counts from the XML data using `xml.etree.ElementTree as ET`, and finally computes the sum of the numbers in the file.
 
 * **Extracting Data With Regular Expressions**
 
@@ -20,7 +20,7 @@ The code reads through and parses a file with text and numbers using `regex` ext
 
  * **Following Links In HTML Using Beautiful Soup**
  
-The code uses `urllib.request` to read from the HTML, parses the data using `BeautifulSoup`, extracts the `href` = values from the anchor tags, scans for a tag that is in a particular position relative to the first name in the list, follows that link and repeats the process 7 and reports the last name it finds.
+The code uses `urllib.request` to read from the HTML, parses the data using `BeautifulSoup`, extracts the `href` = values from the anchor tags, scans for a tag that is in a particular position relative to the first name in the list, follows that link and repeats the process 7 times and reports the last name it finds.
 
 * **Scraping Numbers from HTML using BeautifulSoup**
 
