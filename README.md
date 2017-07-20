@@ -30,4 +30,4 @@ The program uses `urllib.request` to read the HTML and `BeautifulSoup` to parse 
 
 The code contacts Geo JSON API to retrieve information about a specific location in JSON format and parses that data, and retrieves the first `place_id` from the JSON. A place ID is a textual identifier that uniquely identifies a place as within Google Maps.
  
- 
+ My blog on this topic can be found [here](http://www.aashitak.com/data%20science/Scraping-data)
